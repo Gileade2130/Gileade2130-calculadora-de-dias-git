@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Cor de fallback caso a imagem não carregue */
+    margin: 0;
+
+    /* Adicione estas linhas para a imagem de fundo */
+    background-image: url('https://scontent.fbfh17-1.fna.fbcdn.net/v/t39.30808-6/475182597_1024752669685289_5533869448342422614_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=kq7F5NUnUQIQ7kNvwFGg8GE&_nc_oc=Adn73uGBoh4Axpo_3r0nOUe7Qs0hO25v-P6qLoOXO5WXtH13O58PktVXFQlqnvmX23hTWTl1Adaulmp_7_d-uhcs&_nc_zt=23&_nc_ht=scontent.fbfh17-1.fna&_nc_gid=1cPUV0f-zpg6MnjbZEFLkQ&oh=00_AfVXwfohXkC_iJxoT8pUFkbrNqvZ54lOShBZDgMWXUzxSQ&oe=68B427A8'); /* Altere para o caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Fixa a imagem para que não role com o conteúdo */
+}
+.container {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+}
