@@ -8,7 +8,7 @@ body {
     margin: 0;
 
     /* Adicione estas linhas para a imagem de fundo */
-    background-image: url('https://scontent.fbfh17-1.fna.fbcdn.net/v/t39.30808-6/475182597_1024752669685289_5533869448342422614_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=kq7F5NUnUQIQ7kNvwFGg8GE&_nc_oc=Adn73uGBoh4Axpo_3r0nOUe7Qs0hO25v-P6qLoOXO5WXtH13O58PktVXFQlqnvmX23hTWTl1Adaulmp_7_d-uhcs&_nc_zt=23&_nc_ht=scontent.fbfh17-1.fna&_nc_gid=1cPUV0f-zpg6MnjbZEFLkQ&oh=00_AfVXwfohXkC_iJxoT8pUFkbrNqvZ54lOShBZDgMWXUzxSQ&oe=68B427A8'); /* Altere para o caminho da sua imagem */
+    background-image: url('https://scontent.fbfh15-1.fna.fbcdn.net/v/t39.30808-6/475182597_1024752669685289_5533869448342422614_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=fwz50PQtgKkQ7kNvwFGlHOO&_nc_oc=Adl-SO5sqWe4YpP_ceLXbiOs_05QDn_iVkFk-w4bjB_g4iig2BREHz03WXIRVjWizow&_nc_zt=23&_nc_ht=scontent.fbfh15-1.fna&_nc_gid=NJ7tE-kI-JPYzN7txO44dA&oh=00_AfUX9isKpj2v3GlbdDFjeKiUPH0zgO1cvcfHjGM8FtAokQ&oe=68BB67E8'); /* Altere para o caminho da sua imagem */
     background-size: cover; /* Faz a imagem cobrir toda a área */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
